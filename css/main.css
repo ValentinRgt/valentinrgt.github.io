@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', 'Roboto', 'Lato', sans-serif;
+}
+
+footer {
+    margin-top: 30px;
+    background: #333333;
+}
+
+footer p {
+    padding-top: 30px!important;
+    margin-bottom: 30px!important;
+    color: #ffffff;
+}
+
+.typed {
+    color: #ffffff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #070707;
+    border-color: #010000;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(26, 26, 26, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(26, 26, 26, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #010000;
+    border-color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(26, 26, 26, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(26, 26, 26, 0.5);
+}
+
+.header {
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+.header:hover {
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+/* Skills */
+
+.skills .item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #eeeeee;
+    background-clip: border-box;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.skills .item .item-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.skills .item .item-title {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #010000;
+}
+
+.badge-secondary {
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+.badge-secondary[href]:hover, .badge-secondary[href]:focus {
+    color: #1a1a1a;
+    text-decoration: none;
+    background-color: #e6e5e5;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #4BBF73;
+}
+
+.badge-success[href]:hover, .badge-success[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #389f5c;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #1F9BCF;
+}
+
+.badge-info[href]:hover, .badge-info[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #187aa3;
+}
+
+.badge-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.badge-warning[href]:hover, .badge-warning[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ec971f;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.badge-danger[href]:hover, .badge-danger[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #c9302c;
+}
+
+.badge-light {
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+.badge-light[href]:hover, .badge-light[href]:focus {
+    color: #1a1a1a;
+    text-decoration: none;
+    background-color: #e6e5e5;
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #343a40;
+}
+
+.badge-dark[href]:hover, .badge-dark[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1d2124;
+}
